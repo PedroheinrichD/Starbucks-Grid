@@ -1,0 +1,70 @@
+header .line{
+    background-color: #117050;
+    height: 10px;
+    width: 100vw;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+.logo img{
+    height: 64px;
+    width: 64px;
+}
+
+.header-area{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-search form{
+    width: 350px;
+    display: flex;
+}
+
+.header-search input{
+    max-width: 260px;
+    width: 60%;
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #b3b3b3;
+}
+
+::placeholder{
+    color: #a0a0a0;
+}
+
+.header-search button{
+    margin-left: -95px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.header-search button img{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.menu{
+    margin-left: 20px;
+    padding: 4px 0px;
+}
+
+.menu img{
+    height: 25px;
+    width: 25px;
+}
