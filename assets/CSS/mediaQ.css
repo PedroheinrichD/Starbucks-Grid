@@ -27,6 +27,18 @@
 }
 
 @media (max-width: 490px) {
+    .header-right {
+        margin: 0px 50px 0px 235px;
+    }
+
+    .header-search input {
+        display: none;
+    }
+
+    .header-search button {
+        display: none;
+    }
+
 
     .images-c img {
         margin: -90px 0px 0px 20px;
@@ -35,7 +47,7 @@
         border: 3px solid #117050;
     }
 
-   .banner-img h1 {
+    .banner-img h1 {
         font-size: 2.5rem;
         margin-left: 50px;
         line-height: 1.1;
@@ -49,6 +61,11 @@
     }
 }
 
+@media (max-width:420px) {
+    .header-right {
+       margin: 0px 50px 0px 185px ;
+    }
+}
 
 @media (max-width: 408px) {
     .banner-img h1 {
@@ -67,7 +84,9 @@
 
 
 @media (max-width: 350px) {
-
+.header-right {
+       margin: 0px 50px 0px 155px ;
+    }
 
     .images-c {
         margin-left: -50px;
