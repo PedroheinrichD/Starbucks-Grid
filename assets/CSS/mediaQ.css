@@ -46,7 +46,8 @@
 
     #area1 .area1-content p,
     #area2 .area2-content p,
-    #area3 .area3-content p {
+    #area3 .area3-content p,
+    .area4 .area4-content p {
         width: 410px;
         margin-left: 60px;
     }
@@ -88,7 +89,8 @@
 
     #area1 .area1-content p,
     #area2 .area2-content p,
-    #area3 .area3-content p {
+    #area3 .area3-content p,
+    .area4 .area4-content p {
         width: 330px;
         margin-left: 60px;
     }
@@ -127,7 +129,8 @@
 
     #area1 .area1-content p,
     #area2 .area2-content p,
-    #area3 .area3-content p {
+    #area3 .area3-content p,
+    .area4 .area4-content p {
         width: 230px;
         margin-left: 60px;
     }
@@ -140,6 +143,11 @@
     }
 }
 
+@media (max-width:332px){
+    .area1-img2 {
+        margin-top: 50px;
+    }
+}
 
 @media (max-width: 350px) {
     .header-right {
