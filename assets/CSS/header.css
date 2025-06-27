@@ -16,6 +16,7 @@ header .line{
 }
 
 .header-area{
+    margin: auto;
     display: flex;
     align-items: center;
     height: 100px;
